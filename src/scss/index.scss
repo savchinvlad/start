@@ -33,7 +33,7 @@
       font-size: 220px;
       height: 73.83px;
       left: 13.75%;
-      top: 23.65px;
+      top: 31.65px;
 
       color: #3a3e46;
     }
@@ -94,20 +94,61 @@
   // .tagline__body
 
   &__body {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 800px;
+
+    background: #fbce52;
   }
 
   // .tagline__list
 
   &__list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 960px;
+    height: 373px;
+    left: 228px;
+    top: 114px;
   }
 
   // .tagline__number
 
   &__number {
+    width: 24px;
+    height: 24px;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #1d2228;
   }
 
   // .tagline__prop
 
   &__prop {
+    padding: 0 0 0 30px;
+    width: 552px;
+    height: 113px;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 147.6%;
+
+    color: #ffffff;
+  }
+  &__dot {
+    width: 12px;
+    height: 12px;
+    background-color: #000;
   }
 }

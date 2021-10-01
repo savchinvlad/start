@@ -21,13 +21,20 @@ function App() {
       <div className="tagline__body">
         <ul className="tagline__list">
           <li className="tagline__number">
-            <div className="tagline__prop"></div>
+            01
+            <div className="tagline__prop">
+              Quickly <div className="tagline__dot"></div>
+            </div>
           </li>
           <li className="tagline__number">
-            <div className="tagline__prop"></div>
+            02
+            <div className="tagline__prop">Qualitatively</div>
+            <div className="tagline__dot"></div>
           </li>
           <li className="tagline__number">
-            <div className="tagline__prop"></div>
+            03
+            <div className="tagline__prop">On time</div>
+            <div className="tagline__dot"></div>
           </li>
         </ul>
       </div>
