@@ -96,7 +96,7 @@
   &__body {
     position: absolute;
     width: 1440px;
-    height: 600px;
+    height: 560px;
     left: 0px;
     top: 800px;
 
@@ -110,8 +110,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 960px;
-    height: 373px;
+    width: 20px;
+    height: 283px;
     left: 228px;
     top: 114px;
   }
@@ -131,11 +131,21 @@
     color: #1d2228;
   }
 
+  &__props-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 373px;
+    left: 248px;
+    top: 94px;
+  }
+
   // .tagline__prop
 
   &__prop {
-    padding: 0 0 0 30px;
-    width: 552px;
+    width: 952px;
     height: 113px;
 
     font-family: Sora;
@@ -150,5 +160,165 @@
     width: 12px;
     height: 12px;
     background-color: #000;
+  }
+}
+.steps {
+  // .steps__caption
+
+  &__caption {
+    position: absolute;
+    width: 1032px;
+    height: 210px;
+    left: 253px;
+    top: 1521px;
+  }
+
+  // .steps__caption-content
+
+  &__caption-content {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 108px;
+
+    color: #f4b301;
+  }
+
+  // .steps__container
+
+  &__container {
+    position: absolute;
+    width: 1032px;
+    height: 567px;
+    left: 253px;
+    top: 1521px;
+  }
+
+  // .steps__icons-container
+
+  &__rectangle-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 822px;
+    height: 317px;
+    left: 0x;
+    top: 301px;
+  }
+
+  &__icons-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 812px;
+    height: 317px;
+    left: 50px;
+    top: 271px;
+  }
+  &__dotted-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+    height: 0px;
+    left: 140px;
+    top: 311px;
+  }
+
+  // .steps__dotted-line
+
+  &__dotted-line {
+    width: 220px;
+    height: 0px;
+    border-bottom-style: dashed;
+    border-bottom-width: 6px;
+    border-bottom-color: #3a3e46;
+  }
+  // .steps__rectangle
+
+  &__rectangle {
+    width: 96px;
+    height: 96px;
+    background: #fed053;
+  }
+
+  // .steps__icons
+
+  &__icons {
+    width: 100px;
+    height: 100px;
+    font-size: 92px;
+    color: #3a3e46;
+  }
+
+  // .steps__dotted-line
+
+  &__dotted-line {
+  }
+
+  // .steps__content
+
+  &__content-container {
+  }
+  &__content {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1032px;
+    height: 267px;
+    left: 0px;
+    top: 421px;
+  }
+  &__content-text {
+    width: 311px;
+    height: 135px;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1d2228;
+  }
+  &__content-legends {
+    margin-top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+._black {
+  color: #000;
+}
+._semi-black {
+  color: #3a3e46;
+}
+
+.stock {
+  position: absolute;
+  background: url(..\assests\truck_box1.png);
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 2249px;
+  background-size: 100%;
+
+  // .stock__price
+
+  &__price {
+  }
+
+  // .stock__content
+
+  &__content {
+    position: absolute;
+    width: 360px;
+    height: 249px;
+    left: 540px;
+    top: 2600px;
+
+    background: #fbce52;
   }
 }
