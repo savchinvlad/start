@@ -289,25 +289,53 @@
     line-height: 27px;
   }
 }
-._black {
-  color: #000;
-}
-._semi-black {
-  color: #3a3e46;
-}
 
 .stock {
-  position: absolute;
-  background: url(..\assests\truck_box1.png);
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 2249px;
-  background-size: 100%;
-
+  &__container {
+  }
+  &__image {
+    position: absolute;
+    background: url(..\assests\truck_box1.png);
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 2249px;
+    background-size: 100%;
+  }
   // .stock__price
 
   &__price {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 540px;
+    height: 351px;
+    left: 900px;
+    top: 2249px;
+
+    background: #ffffff;
+  }
+  &__price-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 265px;
+    height: 230px;
+    left: 1050px;
+    top: 2300px;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
   }
 
   // .stock__content
@@ -320,5 +348,61 @@
     top: 2600px;
 
     background: #fbce52;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
   }
+}
+
+.slogan {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1d2228;
+
+  // .slogan__container
+
+  &__container {
+    position: absolute;
+    width: 1128px;
+    height: 249px;
+    left: 156px;
+    top: 2992px;
+  }
+}
+
+._orange {
+  color: #f4b301;
+}
+._black {
+  color: #000;
+}
+._semi-black {
+  color: #3a3e46;
+}
+._big {
+  font-style: normal;
+  font-size: 120px;
+  line-height: 126px;
+}
+._small {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 105%;
 }

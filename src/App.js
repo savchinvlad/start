@@ -81,9 +81,24 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="stock">
-        <div className="stock__price"></div>
-        <div className="stock__content"></div>
+      <div className="stock__container">
+        <div className="stock__image"></div>
+        <div className="stock__price"> </div>
+        <div className="stock__price-content">
+          Transportation price <span className="text__decoration _big">10 ₪</span>
+          <span className="text__decoration _small">Minimum order 10 cartons</span>
+        </div>
+        <div className="stock__content">The cost is calculated individually.</div>
+      </div>
+      <div className="slogan__container">
+        <div className="slogan">
+          <p>
+            {' '}
+            We will carry out a <span className="text__decoration _orange">turnkey</span> move.
+            Let's take the <span className="text__decoration _orange"> load</span> off your
+            <span className="text__decoration _orange"> shoulders</span>.
+          </p>
+        </div>
       </div>
     </div>
   );
